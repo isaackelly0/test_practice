@@ -1,4 +1,5 @@
 const reverseString = string => {
- return "gnirts";
+    let newString = string.split("").reverse().join("");
+    return newString;
 }
 module.exports = reverseString;
